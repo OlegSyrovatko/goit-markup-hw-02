@@ -12,34 +12,41 @@ body{
     line-height:1.19;
     font-weight: 400;
 }
-a {
+.footer a, .page-header a {
     text-decoration: none;
     color: var(--color-primary);
 }
 
+.list {
+  list-style: none; 
+}
 
-button {
+
+.order-button {
   font-family: 'Roboto';
   font-style: normal; 
   cursor: pointer;
   font-size: 16px;
-}
-
-.order-button {
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #FFFFFF;
   background-color: #2196F3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .portfolio-default {
+  font-family: 'Roboto';
+  font-style: normal; 
+  cursor: pointer;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   background-color: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
 }
@@ -77,21 +84,7 @@ button {
 
   color: #212121;
 }
-.advantages  p{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
 
-letter-spacing: 0.03em;
-color: #757575;
-}
-.advantages  li{
-  width: 270px;
-}
-  
-.our-team  {
-  background-color: #F5F4FA;
-}
 
 
 .site-nav{
@@ -108,50 +101,43 @@ color: #757575;
     color: #2196F3;
 }
 
+.link.current{
+  color: #2196F3;
+}
+
 
 .mailto-top, .tel-top{
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
 
-ul {
-    list-style: none; /* Убираємо маркери */
-}
-/* li {
-  display:inline-block; 
-} */
 
-h1{
+
+
+.first h1{
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
 color: #FFFFFF;
 }
 
-h2{
+.h2{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.03em;
 }
-h3{
+.our-works h3, .advantages h3, .our-team-block h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -173,6 +159,7 @@ h3{
 }
 
 
+
 .order-button{
   background-color: #2196F3;
 }
@@ -188,11 +175,9 @@ h3{
 }
 
 
-
 .page-header{
     background: #FFFFFF;
 }
-
 
 .logo-link, .studio {
   color: #2196F3; 
@@ -214,24 +199,16 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.advantages  li{
-  width: 270px;
-}
-  
-.our-team  {
-  background-color: #F5F4FA;
-}
+
 
 
 .our-team-block > li  {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
- 
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
+  background-color: #FFF;
 }
 
 .address-map, .footer-logo{
