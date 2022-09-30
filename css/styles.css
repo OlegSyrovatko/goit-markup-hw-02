@@ -12,9 +12,12 @@ body{
     line-height:1.19;
     font-weight: 400;
 }
-.footer a, .page-header a {
+.page-header a {
     text-decoration: none;
     color: var(--color-primary);
+}
+.footer a {
+  text-decoration: none;
 }
 
 .list {
@@ -211,9 +214,7 @@ color: #757575;
   background-color: #FFF;
 }
 
-.address-map, .footer-logo{
-  color: #FFFFFF;
-} 
+
 
 .address li  {
   display: block;
@@ -230,3 +231,6 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 
+.address-map, .footer-logo{
+  color: #FFFFFF;
+} 
