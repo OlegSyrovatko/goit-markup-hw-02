@@ -9,12 +9,14 @@ body{
     background: var(--color-background);
     color: var(--color-primary);
     font-size: 14px;
-    line-height:1.19;
+    line-height: 1.19;
     font-weight: 400;
 }
 .page-header a {
     text-decoration: none;
-    color: var(--color-primary);
+}
+.menu-nav a {
+  color: var(--color-primary);
 }
 .footer a {
   text-decoration: none;
@@ -26,7 +28,7 @@ body{
 
 
 .order-button {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal; 
   cursor: pointer;
   font-size: 16px;
@@ -41,7 +43,7 @@ body{
 }
 
 .portfolio-default {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal; 
   cursor: pointer;
   font-size: 16px;
@@ -56,9 +58,10 @@ body{
 }
 
 .portfolio-button {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal; 
   cursor: pointer;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -99,7 +102,21 @@ body{
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+
+
+.mailto-top, .tel-top{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+  letter-spacing: 0.02em;
+
+}
+
+
 .site-nav a:hover, .site-nav a:focus, 
+.tel-top:hover, .tel-top:focus,
+.mailto-top:hover, .mailto-top:focus,
 .tel:hover, .tel:focus,
 .eml:hover, .eml:focus,
 .address-map:hover, .address-map:focus
@@ -112,13 +129,6 @@ body{
 }
 
 
-.mailto-top, .tel-top{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
 
 
 
@@ -287,3 +297,5 @@ color: rgba(255, 255, 255, 0.6);
 .address-map, .footer-logo{
   color: #FFFFFF;
 } 
+
+
